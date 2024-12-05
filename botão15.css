@@ -1,0 +1,33 @@
+.bt{
+    width:30%;
+    height:15vh;
+    border-radius: 25px;
+    margin-top:25vh;
+    position:static;
+    margin-left: 30%;
+    border-color: blueviolet;
+    isolation: isolate;
+
+}
+h1{
+    isolation: isolate;
+}
+svg{
+    height:35%;
+    width:30%;
+    color:blueviolet;
+}
+
+section{
+    place-items:  center;
+    height: 100vh;
+    position: relative;
+    }
+section::before{
+    background-image: url(canvamoldura.jpg);
+    background-size:cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.6;
+}
